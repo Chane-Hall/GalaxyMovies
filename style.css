@@ -1,0 +1,163 @@
+body {
+	background-image: url("media/55.jpg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	width:1600px;
+	height: 700px;
+	color: white;
+	text-align: center;
+}
+* {
+	text-align: center;
+}
+a {
+	margin-top: 0px;
+	margin: 0px;
+	text-decoration: none;
+	color: white;}
+ul.head li {
+	margin: 20px;
+	background-color: black;
+	display: inline-block;
+	padding: 6px;
+	font-size: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;}
+h1 {
+	font-size: 40px;
+	background-image: url("media/big.jpg");
+	padding: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+h4 {
+	font-size: 40px;
+	margin: 10px;}
+.disc {
+	background-image: url("media/big.jpg");
+	padding: 40px;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+#fmovie {
+	padding: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+	background-color: rgba(0, 0, 0, 0.7);}
+#tmovie {
+	padding: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;}
+nav {
+	background-color: black;}
+.limg {
+	/*color: black;
+	background-color: rgba(31, 58, 147, 0.8);*/
+	background-image: url("media/big.jpg");
+	padding: 50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 3px solid white;
+	border-radius: 60px;}
+#lmovie ul {
+	text-decoration: none;
+	list-style: none;}
+img {
+	height: 400px}
+#lmovie p {
+	float:left;
+	display: inline;}
+#lmovie img {
+	display: inline;}
+#ind{
+	margin: 40px;}
+.btt {
+	background-color: black;
+	padding: 25px;
+	margin: 20px;
+	border: 3px solid white;
+	border-radius: 20px;
+	position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.dm {
+	background-color: rgba(148,0,211,0.6);
+	padding: 50px;
+	margin: 40px;
+	//margin-left: 400px;
+	//margin-right: 400px;
+	float:left;
+	width:400px;
+	height: 530px;
+	border: 5px solid white;
+	border-radius: 60px;
+}
+.dm img {
+	height: 200px;
+}
+.movie {
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.movie p {
+	font-size: 20px;}
+.movie h2 {
+	font-size: 30px;}
+.cmovie img{
+	height: 300px;
+	margin: 50px;
+}	
+#my-img1:hover {
+    content: url("media/fglass.jpg");
+}
+#my-img2:hover {
+    content: url("media/faque.jpg");
+}
+#my-img3:hover {
+    content: url("media/ffvenom.jpg");
+}
+#my-img4:hover {
+    content: url("media/fbr.jpg");
+}
+#my-img5:hover {
+    content: url("media/fsib.jpg");
+}
+img {
+	border: 5px solid white;
+}
+
+table {
+	text-align: center;
+	color: black;
+	border: 2px solid black;
+}	
+th {
+	border: 2px solid black;
+	background-color: white;
+	height: 30px;
+}	
+td {
+	border: 2px solid black;
+	background-color: white;
+	width:150px;
+	height: 100px;
+}	
+.cmovie {
+	text-align: center;
+	margin-right: 300px;
+	margin-left: 300px;
+}		
+.disc button {
+	width:10px;
+	height: 18px;
+}	
+	
+	

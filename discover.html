@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Chane Hall"/>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="discover.js">
+		</script>
+	</head>
+	<body>
+	
+	<nav>
+		<ul class="head" id="#top">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="discover.html">Discover</a></li>
+			<li><a href="featured.html">Featured</a></li>
+			<li><a href="top.html">Top Rated</a></li>
+			<li><a href="latest.html">Latest</a></li>
+			<li><a href="calendar.html">Calendar</a></li>
+		</ul>
+	</nav>
+	<div class="disc">
+	<h4>Discover</h4>
+	<label>First name<br />
+		<input  id="inp" type="text" placeholder="Search.."><button id="myButton" type="submit" onclick="clicker()"></button></label><br />
+	<label>Filter according to date<br />
+		<select id= "sel" name="date" onchange="myFunction()">
+			<option value="ch">choose</option>
+			<option value="2019">2019</option>
+			<option value="2018">2018</option>
+			<option value="2017">2017</option>
+		</select>
+	</label><br />
+	<!--<label>Filter according to genre<br />
+			<select name="genre">
+			<option value="Action">Action</option>
+			<option value="Drama">Drama</option>
+			<option value="Kids">Kids</option>
+			<option value="music">Music</option>
+			<option value="Romance">Romance</option>
+		</select>
+	</label>-->
+	</div>
+	<!--At least 5 Movies-->
+	<div id="movied">
+	
+	</div>
+	<!--Link to the top of the page -->
+	<a class="btt" href="#top">Back to Top</a>
+
+	</body>
+</html>
+
+
+<!--• Background
+• Color
+• Font
+• Border
+• Text-size
+• Padding and Margins 
+https://www.themoviedb.org/movie/424783-bumblebee
+https://api.themoviedb.org/3/discover/movie?api_key=f8dcd942b7ecd4872fd47b41d2acd1af&language=en-US-->
